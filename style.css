@@ -1,0 +1,74 @@
+
+  
+  
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(4px);
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 350px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .folder-select {
+    margin-bottom: 15px;
+  }
+  .add-task {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  input {
+    flex: 1;
+    padding: 8px;
+  }
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    justify-content: space-between;
+  }
+  .task-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .task-done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
